@@ -18,7 +18,6 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 10px;
     background: linear-gradient(to bottom,
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0.6) 60%,
@@ -44,6 +43,7 @@ body {
 
 .first-header p {
     font-size: 29.5556px;
+    margin-top: 10px;
 }
 
 .first-header ul {
@@ -52,6 +52,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-size: 19px;
+    margin-top: 5px;
 }
 
 .first-header ul li {
@@ -84,6 +85,7 @@ body {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+    margin-top: 0;
 }
 
 .second-header ul li{
@@ -142,6 +144,7 @@ footer {
 main {
     position: relative; 
     z-index: -20;
+    height: 100vh;
 }
 
 main img {
